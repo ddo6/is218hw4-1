@@ -51,7 +51,7 @@ $statement->closeCursor();
               id="add_product_form">
           
           <label>Name:</label>
-            <input type="text" name="code"><br>
+            <input type="text" name="category_id"><br>
           <label>&nbsp;</label>
             <input type="submit" value="Add Category"><br>
           
