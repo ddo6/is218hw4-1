@@ -32,6 +32,7 @@ $statement->closeCursor();
       <?php foreach ($categorys as $category) : ?>
             <tr>
               <td><?php echo $product['productCode']; ?></td>
+              <td class="right"><?php echo $product['listPrice']; ?></td>
                 <td><form action="delete_product.php" method="post">
                     <input type="hidden" name="product_id"
                            value="<?php echo $product['productID']; ?>">
