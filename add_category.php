@@ -14,14 +14,11 @@ if ($category_id == null || $category_id == false ||
     
     // Add the product to the database  
     $query = 'INSERT INTO categories
-                 (categoryID, productCode, productName, listPrice)
+                 (categoryID)
               VALUES
-                 (:category_id, :code, :name, :price)';
+                 (:category_id)';
     $statement = $db->prepare($query);
     $statement->bindValue(':category_id', $category_id);
-    $statement->bindValue(':code', $code);
-    $statement->bindValue(':name', $name);
-    $statement->bindValue(':price', $price);
     $statement->execute();
     $statement->closeCursor();
     // Display the Product List page
