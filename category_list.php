@@ -26,11 +26,12 @@ $statement->closeCursor();
     <table>
         <tr>
             <th>Code</th>
-          <th>Name</th>
-                <th>&nbsp;</th>
+            <th>Name</th>
+            <th>&nbsp;</th>
         </tr>
         
         <!-- add code for the rest of the table here -->
+      
     
     </table>
 
