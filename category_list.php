@@ -25,8 +25,9 @@ $statement->closeCursor();
     <h1>Category List</h1>
     <table>
         <tr>
-            <th>Name</th>
-            <th>&nbsp;</th>
+            <th>Code</th>
+          <th>Name</th>
+                <th>&nbsp;</th>
         </tr>
         
         <!-- add code for the rest of the table here -->
