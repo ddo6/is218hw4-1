@@ -35,16 +35,17 @@ $statement->closeCursor();
         <!-- display a list of categories -->
         <h2>Categories</h2>
         <table>
-        <nav>
-        <ul>
+        <tr>
+       
             <?php foreach ($categories as $category) : ?>
             <li><a href=".?category_id=<?php echo $category['categoryID']; ?>">
                     <?php echo $category['categoryName']; ?>
                 </a>
             </li>
             <?php endforeach; ?>
-        </ul>
-        </nav>  
+    
+         
+        </tr>
           </table>
     </aside>
       
