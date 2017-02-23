@@ -46,6 +46,22 @@ $statement->closeCursor();
     </table>
 
     <h2>Add Category</h2>
+        <form action="add_product.php" method="post"
+              id="add_product_form">
+
+            <label>Category:</label>
+            <select name="category_id">
+            <?php foreach ($categories as $category) : ?>
+                <option value="<?php echo $category['categoryID']; ?>">
+                    <?php echo $category['categoryName']; ?>
+                </option>
+            <?php endforeach; ?>
+            </select><br>
+
+
+            <label>Name:</label>
+            <input type="text" name="name"><br>
+          
     
     <!-- add code for the form here -->
     
