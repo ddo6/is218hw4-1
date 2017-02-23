@@ -34,6 +34,7 @@ $statement->closeCursor();
       <aside>
         <!-- display a list of categories -->
         <h2>Categories</h2>
+        <table>
         <nav>
         <ul>
             <?php foreach ($categories as $category) : ?>
@@ -43,7 +44,8 @@ $statement->closeCursor();
             </li>
             <?php endforeach; ?>
         </ul>
-        </nav>          
+        </nav>  
+          </table>
     </aside>
       
     
