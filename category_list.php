@@ -40,6 +40,7 @@ $statement->closeCursor();
                     <input type="submit" value="Delete">
                 </form></td>
             </tr>
+      <?php endforeach; ?>
         
         <!-- add code for the rest of the table here -->
     
