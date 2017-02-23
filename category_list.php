@@ -29,7 +29,7 @@ $statement->closeCursor();
             <th>&nbsp;</th>
         </tr>
       
-      <?php foreach ($categorys as $category) : ?>
+      <?php foreach ($categories as $category) : ?>
             <tr>
               <td><?php echo $product['productCode']; ?></td>
               <td class="right"><?php echo $product['listPrice']; ?></td>
