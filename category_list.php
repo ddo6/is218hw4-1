@@ -31,7 +31,7 @@ $statement->closeCursor();
       
       <?php foreach ($categories as $category) : ?>
             <tr>
-              <td><?php echo $product['productCode']; ?></td>
+              <td><?php echo $category['productCode']; ?></td>
               
                 <td><form action="delete_product.php" method="post">
                     <input type="hidden" name="category_id"
