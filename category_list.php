@@ -53,7 +53,7 @@ $statement->closeCursor();
           <label>Name:</label>
             <input type="text" name="code"><br>
           <label>&nbsp;</label>
-            <input type="submit" value="Add Product"><br>
+            <input type="submit" value="Add Category"><br>
           
   </form>
     
